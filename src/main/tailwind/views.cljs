@@ -4,7 +4,7 @@
 
 (defn public
   []
-  [:div {:class "min-h-screen bg-gray-50 flex flex-col justify-center py-12 sm:px-6 lg:px-8"}
+  [:div {:class "min-h-screen bg-gray-100 flex flex-col justify-center py-12 sm:px-6 lg:px-8"}
    [:div {:class "sm:mx-auto sm:w-full sm:max-w-md"}
     [:h2 {:class "mt-6 text-center text-3xl font-extrabold text-gray-900"} "Sign in to your account"]
     [:p {:class "mt-2 text-center text-sm text-gray-600 max-w"} "Or "
@@ -39,7 +39,7 @@
    [:div {:class "hidden lg:flex lg:flex-shrink-0"}
     [:div {:class "flex flex-col w-64 border-r border-gray-200 pt-5 pb-4 bg-gray-100"}
      [:div {:class "flex items-center flex-shrink-0 px-6"}
-      [:div {:class "text-center text-3xl font-bold text-gray-900"} "App"]]
+      [:div {:class "text-center text-3xl font-bold text-gray-500"} "App"]]
      [:div {:class "h-0 flex-1 flex flex-col overflow-y-auto"}
       [:div {:class "px-3 mt-6 relative inline-block text-left"}
        [:div
